@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Group Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src = "js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <!-- // Chat icon and Welcome Text -->
+    <nav>
+        <img class = "logo" src="chat.png" alt = "chat icon" >
+        <h1>Welcome To VeeChat !</h1>
+    </nav>
+
+
+    <!-- // Dynamic Message Container Box -->
+    <div class="container"></div>
+
+
+    <!-- // Input Text Form -->
+    <div class="send">
+        <form action ="#" id="send-container">
+            <input type="text" name="messageInp" placeholder="Type to send" id = "messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <!-- <script src= "http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script> -->
+
+</body>
+</html>
